@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    author: intelliq
+    type: frontend
+  name: mywebserver
+  spec:
+    containers:
+      -
+        image: httpd
+        name: myhttpd
